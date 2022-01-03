@@ -12,7 +12,7 @@ open class Persona {
     open var id: Int? = null
 
     @Column(name = "nombre", nullable = false, length = 54)
-    open var nombre: String? = null
+    open var nombres: String? = null
 
     @Column(name = "apellido", nullable = false, length = 58)
     open var apellido: String? = null
