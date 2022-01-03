@@ -1,0 +1,32 @@
+### Get persona
+GET http://localhost:8080/persona/
+
+
+### Get persona por id
+GET http://localhost:8080/persona/1
+
+
+### Insertar una Persona
+POST http://localhost:8080/persona
+Content-Type: application/json
+
+{
+  "id":"",
+  "nombre": "Madeline Esperanza",
+  "apellido": "Cano Jimenez"
+}
+
+
+### Actualizar persona
+PUT http://localhost:8080/persona/1
+Content-Type: application/json
+
+{
+  "id": "",
+  "nombre": "Ruben Alexander",
+  "apellido": "Cano Franzua"
+}
+
+
+### Eliminar Persona
+DELETE http://localhost:8080/persona/1
